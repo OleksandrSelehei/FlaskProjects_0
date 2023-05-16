@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="/static/icon/icon.png">
+    <title>Anim</title>
+      <script src="/static/js/jquery-3.6.4.js"></script>
+    <link rel="stylesheet" href="/static/style/style.css">
+  </head>
+  <body>
+    <header><h1>Anim</h1></header>
+    <nav>
+      <ul>
+        <li><a href="/series">поиск по сериям</a></li>
+        <li><a href="/voice">поиск по озвучке</a></li>
+        <li><a href="/contacts">контакты</a></li>
+        <li><a href="/right_holders">правообладателям</a></li>
+      </ul>
+    </nav>
+    <div class="container_content">
+      <p id="content_text"></p>
+    </div>
+    <div class="bottom-bar">
+      <div class="voice">
+        <select name="voice" id="voice" title="Voice">
+            <option value="Voice">Озвучка</option>
+            <option value="AniLibria">AniLibria</option>
+            <option value="AnimeVost">AnimeVost</option>
+            <option value="AniDUB">AniDUB</option>
+            <option value="SHIZA Project">SHIZA Project</option>
+            <option value="Studio Band">Studio Band</option>
+            <option value="AniStar">AniStar</option>
+            <option value="AniFilm">AniFilm</option>
+            <option value="Animedia">AniMedia</option>
+            <option value="AniPlay">AniPlay</option>
+            <option value="Anything Group">Anything Group</option>
+        </select>
+      </div>
+      <div class="search-container">
+        <input type="text" id="inputField" placeholder="Введите название аниме">
+        <button onclick="search_voice_in_anime()" type="submit">Поиск</button>
+      </div>
+    </div>
+    <script src="/static/js/client_publi.js"></script>
+  </body>
+</html>

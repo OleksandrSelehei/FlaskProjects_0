@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/static/icon/icon.png">
+    <title>Anim</title>
+    <script src="/static/js/jquery-3.6.4.js"></script>
+    <link rel="stylesheet" href="/static/style/style.css">
+  </head>
+  <body>
+    <header><h1>Anim</h1></header>
+    <nav>
+      <ul>
+        <li><a href="/series">поиск по сериям</a></li>
+        <li><a href="/voice">поиск по озвучке</a></li>
+        <li><a href="/contacts">контакты</a></li>
+        <li><a href="/right_holders">правообладателям</a></li>
+      </ul>
+    </nav>
+    <div class="container_content">
+    </div>
+    <div class="bottom-bar">
+        <div class="series">
+            <input type="number" id="spinbox" name="spinbox" min="0" max="1500" placeholder="Серия">
+        </div>
+      <div class="search-container">
+        <input type="text" id="inputField" placeholder="Введите название аниме">
+        <button onclick="search_series_in_anime()" type="submit">Поиск</button>
+      </div>
+    </div>
+    <script src="/static/js/client_publi.js"></script>
+  </body>
+</html>

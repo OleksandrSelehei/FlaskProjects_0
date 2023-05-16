@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+
+}
+
+header {
+    height: 50px;
+    color: white;
+    background-color: #0d0d0d;
+    text-align: left;
+    line-height: 1px;
+    padding: 3px;
+    padding-left: 4%;
+}
+
+.container_content {
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    margin-inline: 100px;
+    height: 500vh;
+    width: 81%;
+    text-align: center;
+}
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+  }
+
+  .search-container {
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+  }
+
+  .search-container button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .search-container button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  .voice {
+    margin-top: 5px;
+    margin-inline: 45%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .series {
+    margin-top: 5px;
+    margin-inline: 45%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+nav {
+   background-color: #1a1a1a;
+   color: white;
+   float: left;
+   width: 25vh;
+   height: 500vh;
+   line-height: 3;
+   text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ff7f50;
+}
+
+.card-link {
+  font-family: Georgia, serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333333;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.card-link img {
+  height: auto;
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+.card-link h2 {
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+

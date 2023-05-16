@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anim</title>
+    <link rel="shortcut icon" href="/static/icon/icon.png">
+    <link rel="stylesheet" href="">
+    <script src="/static/js/jquery-3.6.4.js"></script>
+</head>
+<body>
+    <header><h1>Страница Админа</h1></header>
+    <div class="update">
+      <button onclick="update_ongoing_anime()" type="submit">Обновление онгоингов</button>
+    </div>
+    <div class="bottom-bar">
+      <header><h2>Ручное обновление</h2></header>
+      <div class="sait">
+        <select name="sait" id="sait" title="sait">
+            <option value="ANIMEVOST">AnimeVost</option>
+            <option value="ANIDUB.VIP">AniDub</option>
+            <option value="YUMMYANIME.TV">YUMMYANIME.TV</option>
+            <option value="AMEDIA_ONLINE">AMEDIA.ONLAIN</option>
+            <option value="JUT-SU.NET">JUT-SU.NET</option>
+        </select>
+      </div>
+      <div class="search-container">
+        <input type="text" id="inputField" placeholder="Введите название аниме">
+        <div class="series">
+            <input type="number" id="spinbox" name="spinbox" min="0" max="1500" placeholder="Серия">
+        </div>
+        <button onclick="update_spot_anime()" type="submit">Обнавить</button>
+      </div>
+    </div>
+    <script src="/static/js/admin.js"></script>
+</body>
+</html>
